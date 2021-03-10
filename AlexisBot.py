@@ -1,9 +1,8 @@
 import telebot
 
 import config
-login(config.username)
 
-bot = telebot.TeleBot('username')
+bot = telebot.TeleBot(config.username)
 
 
 keyboard1 = telebot.types.ReplyKeyboardMarkup()
